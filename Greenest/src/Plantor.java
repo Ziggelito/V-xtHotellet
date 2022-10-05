@@ -1,5 +1,6 @@
-
+// Här har vi ett exempel på ett Interface
 public abstract class Plantor implements interfaceTillPlantor {
+    //Här har vi ett exempel på en inkapsling
 
     final protected double height;
 
@@ -7,7 +8,7 @@ public abstract class Plantor implements interfaceTillPlantor {
 
     protected double fluidAmount;
 
-    protected Fluid fluid;
+
 
     Plantor( double height, String name){
         this.height = height;

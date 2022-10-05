@@ -1,14 +1,12 @@
 public class Kaktus extends Plantor{
     public Kaktus(double height, String name) {
         super(height, name);
-        fluid = Fluid.Mineral;
+        fluidAmount = 0.2;
     }
 
     public String getFluid() {
-        return null;
+        return "Växten ska ha " + fluidAmount + " liter mineralvatten.";
     }
 
-    public void calculateFluid() { fluidAmount = fluid.base;
 
-    }
 }

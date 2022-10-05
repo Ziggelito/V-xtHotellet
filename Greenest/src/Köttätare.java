@@ -1,18 +1,20 @@
 public class Köttätare extends Plantor{
 
-    final private double multiplier;
+    final private double additive;
 
     Köttätare(double height, String name) {
         super(height, name);
-        fluid = Fluid.Protein;
-        multiplier = 0.2;
+
+        additive = 0.2;
+        fluidAmount = 0.1 + additive * height;
+
     }
 
     public String getFluid() {
-        return null;
+        return "Växten ska ha " + fluidAmount + " liter vatten.";
     }
 
-    public void calculateFluid() { fluidAmount = fluid.base + multiplier * height;
+
 
     }
-}
+
