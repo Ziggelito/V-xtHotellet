@@ -1,3 +1,5 @@
+package Blommor;
+
 // Här har vi ett exempel på ett Interface
 public abstract class Plantor implements interfaceTillPlantor {
     //Här har vi ett exempel på en inkapsling

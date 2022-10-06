@@ -1,6 +1,12 @@
+package Blommor;
+
+import Blommor.Kaktus;
+import Blommor.Köttätare;
+import Blommor.Palm;
+import Blommor.Plantor;
+
 import javax.swing.*;
 import java.util.ArrayList;
-import java.util.List;
 
 public class Rutan {
 

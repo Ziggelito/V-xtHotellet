@@ -1,3 +1,5 @@
+package Blommor;
+
 public class Kaktus extends Plantor{
     public Kaktus(double height, String name) {
         super(height, name);

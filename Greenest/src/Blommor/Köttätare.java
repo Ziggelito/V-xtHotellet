@@ -1,3 +1,5 @@
+package Blommor;
+
 public class Köttätare extends Plantor{
 
     final private double additive;

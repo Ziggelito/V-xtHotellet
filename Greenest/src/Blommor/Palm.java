@@ -1,3 +1,5 @@
+package Blommor;
+
 // Här har vi exempel på ett Arv
 public class Palm extends Plantor{
 
